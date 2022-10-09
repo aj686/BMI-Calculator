@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background: #efeff2;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    padding: 5px 0;
+  }
+
+  .bmi {
+    width: 800px;
+    height: 300px;
+    box-shadow: 4px 4px 30px rgba(0,0,0,0.3);
+    border-radius: 12px;
+    background: blue;
+    overflow: hidden;
+    padding: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  form input {
+    background: white;
+    width: 200px;
+    height: 48px;
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center  ;
+    /*pointer-events: none; /* can't enter value */
+  }
+
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    width: 200px;
+    height: 48px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #fff;
+    margin-top: 2rem;
+    
+  }
+  
+  .btn-equal {
+    background: green;
+    color: #fff;
+  }
+
+  .btn-clear {
+    background: red;
+    color: #fff;
+  }
+
+  .screen {
+    justify-content: center;
+    margin-top: 10px;
+    background: white;
+    width: 735px;
+    height: 100px;  
+    border: none;
+    border-radius: 12px;
+    font-size: 2rem;
+    text-align: center;  
+    pointer-events: none;
+  }
+  
+ 

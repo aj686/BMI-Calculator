@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    
+    <title>Calculator</title>
+</head>
+<body>
+
+  <div class="flex-container">
+
+    <!-- BMI -->
+    <h2>BMI Calculator</h2> 
+    <section class = "bmi">
+    
+      <!--INPUT USER-->
+      <form class="form">
+        <p style="color: #fff; font-size: 2em;">Weight(kg)</p>
+        <input class="weight-input" id="textfield1" type="text" value="">
+
+        <p style="color: #fff; font-size: 2em;">Height(m)</p>
+        <input class="height-input" id="textfield2" type="text" value="">
+      </form>
+
+      <section class="buttons">
+        <!--BUTTON-->
+        <button type="button" class="btn-equal">Calculate</button>   
+        <button type="button" class="btn-clear">Clear1</button>
+
+        <!-- onclick used when button clicked and call the function in index.js-->
+        <button type="button" class="btn-clear" onclick="clearFields();">Clear2</button>
+      </section>
+
+      <section class="screen">
+        <h2 class="result" style="color: black;"></h2>
+        <p class="result-statement" style="color: black;"></p>
+      </section>
+       
+      
+      
+    </section>
+
+    
+  </div>
+  
+
+  
+
+  
+  <script src="index.js"></script>
+  
+</body>
+</html>
